@@ -1,22 +1,54 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# Jonathan Gurusinghe
+**Software Engineer | Full-Stack & Mobile Developer**
+
+Perth, Western Australia  
+[GitHub](https://github.com/jonathangurusinghe) • [LinkedIn](https://linkedin.com)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+### Professional Summary
+Software Engineer with hands-on experience designing and deploying end-to-end web applications, cross-platform mobile solutions, and scalable RESTful backends. Skilled in bridging modern front-end frameworks with robust database architectures and machine learning pipelines. 
 
-View your app in AI Studio: https://ai.studio/apps/8590678c-44e7-49e2-a764-2beb6d70f068
+---
 
-## Run Locally
+### Technical Skills
 
-**Prerequisites:**  Node.js
+* **Languages:** Python, JavaScript, TypeScript, Dart, Java, Kotlin, Swift, SQL
+* **Front-End & Mobile:** React, Next.js, Flutter, Tailwind CSS, HTML5/CSS3
+* **Back-End & Databases:** FastAPI, Node.js, MariaDB, MySQL, Firebase, Supabase
+* **Machine Learning & Tools:** scikit-learn, pandas, joblib, Git, Cloudflare, REST APIs
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# jonathangurusinghe
-# jonathangurusinghe
+### Featured Projects
+
+* **Clinical Decision-Support System (FSHG Project)**
+  * Engineered a deterministic clinical rule engine and integrated shadow machine learning evaluation pipelines.
+  * Built Flutter integration adapters to deliver responsive, real-time diagnostic workflows for healthcare staff.
+
+* **E-Commerce & Digital Platforms**
+  * **Chapter Gift Boxes:** Architected scalable React storefront interfaces, optimized asset delivery via Cloudflare, and integrated Frappe backend services.
+  * **Carsell Kings:** Implemented Next.js performance optimizations, SEO metadata structures, and secure SSL/server redirect architectures.
+  * **Starlight Hand Car Wash:** Developed user-facing interactive web components, local SEO schemas, and Google Maps API integrations.
+
+---
+
+### Education
+
+* **Master of Computer Science**  
+  *Edith Cowan University* | Perth, Australia
+
+* **Bachelor of Engineering in Software Engineering**  
+  *University of Westminster*
+
+---
+
+### Experience
+
+* **Freelance Software Engineer** | *Perth, Australia*
+  * Designed and shipped bespoke web and mobile products for local businesses, focusing on clean architecture, API design, and performance optimization.
+  * Delivered end-to-end database schemas, authentication layers, and responsive UI components.
