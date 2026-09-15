@@ -7,7 +7,7 @@ interface DeveloperWorkstationAnimationProps {
   compact?: boolean;
 }
 
-type CodeMode = 'react' | 'ai' | 'wordpress' | 'audio';
+type CodeMode = 'react' | 'ai' | 'wordpress';
 
 const codeSnippets: Record<CodeMode, { title: string; file: string; lines: string[]; lang: string }> = {
   react: {

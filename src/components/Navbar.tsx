@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
                 src={personalInfo.profileImage}
                 onError={(e) => {
                   const target = e.currentTarget;
-                  if (!target.src.includes('avatar.jpg')) {
+                  if (!target.src.includes({profileImage})) {
                     target.src = {profileImage};
                   }
                 }}
