@@ -226,7 +226,7 @@ export const HeroSection: React.FC = () => {
                   onError={(e) => {
                     const target = e.currentTarget;
                     if (!target.src.includes('avatar.jpg')) {
-                      target.src = '/avatar.jpg';
+                      target.src = {personalInfo.profileImage};
                     }
                   }}
                   alt={personalInfo.name}
