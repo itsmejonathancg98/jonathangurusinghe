@@ -223,7 +223,7 @@ export const HeroSection: React.FC = () => {
               {/* Portrait Image Frame */}
               <div className="aspect-square sm:aspect-[4/5] w-full rounded-xl overflow-hidden bg-[#18181c] border border-white/[0.08] relative group">
                 <img
-                  src={personalInfo.profileImage}
+                  src={profileImage}
                   onError={(e) => {
                     const target = e.currentTarget;
                     if (!target.src.includes({profileImage})) {

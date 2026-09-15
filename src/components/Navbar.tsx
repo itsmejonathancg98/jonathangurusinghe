@@ -59,7 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           >
             <div className="relative shrink-0">
               <img
-                src={personalInfo.profileImage}
+                src={profileImage}
                 onError={(e) => {
                   const target = e.currentTarget;
                   if (!target.src.includes({profileImage})) {

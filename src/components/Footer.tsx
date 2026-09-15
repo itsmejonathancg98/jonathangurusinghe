@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-6 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src={personalInfo.profileImage}
+                src={profileImage}
                 onError={(e) => {
                   const target = e.currentTarget;
                   if (!target.src.includes({profileImage})) {
