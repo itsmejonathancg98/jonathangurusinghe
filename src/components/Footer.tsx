@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowUp, Github, Linkedin, Mail, Twitter, Youtube, ExternalLink } from 'lucide-react';
 import { personalInfo, socialLinks } from '../data/portfolioData';
+import profileImage from './public/avatar.jpg';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -20,7 +21,7 @@ export const Footer: React.FC = () => {
                 onError={(e) => {
                   const target = e.currentTarget;
                   if (!target.src.includes('avatar.jpg')) {
-                    target.src = {personalInfo.profileImage};
+                    target.src = {profileImage};
                   }
                 }}
                 alt={personalInfo.name}

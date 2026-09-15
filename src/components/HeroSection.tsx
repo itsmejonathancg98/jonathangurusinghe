@@ -16,6 +16,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { personalInfo, socialLinks } from '../data/portfolioData';
+import profileImage from './public/avatar.jpg';
 
 export const HeroSection: React.FC = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -226,7 +227,7 @@ export const HeroSection: React.FC = () => {
                   onError={(e) => {
                     const target = e.currentTarget;
                     if (!target.src.includes('avatar.jpg')) {
-                      target.src = {personalInfo.profileImage};
+                      target.src = {profileImage};
                     }
                   }}
                   alt={personalInfo.name}

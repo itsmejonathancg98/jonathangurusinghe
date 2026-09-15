@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, FileText, Github, Linkedin, Mail, Check, ExternalLink } from 'lucide-react';
 import { personalInfo, socialLinks } from '../data/portfolioData';
+import profileImage from './public/avatar.jpg';
 
 interface NavbarProps {
   activeSection: string;
@@ -62,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
                 onError={(e) => {
                   const target = e.currentTarget;
                   if (!target.src.includes('avatar.jpg')) {
-                    target.src = {personalInfo.profileImage};
+                    target.src = {profileImage};
                   }
                 }}
                 alt={personalInfo.name}
