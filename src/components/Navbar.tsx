@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, FileText, Github, Linkedin, Mail, Check, ExternalLink } from 'lucide-react';
 import { personalInfo, socialLinks } from '../data/portfolioData';
-import profileImage from './public/avatar.jpg';
+import profileImage from '/public/avatar.jpg';
 
 interface NavbarProps {
   activeSection: string;
